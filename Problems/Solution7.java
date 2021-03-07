@@ -1,8 +1,7 @@
-import java.util.*;
-class 7Solution {
+class Solution7 {
     public int reverse(int x) {
         long rev = 0;
-        while(x != 0){
+        while (x != 0) {
             rev = (rev * 10) + (x % 10);
             x /= 10;
         }
